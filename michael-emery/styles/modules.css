@@ -17,8 +17,7 @@ nav ul li a{
   font-size: 1.25em;
 }
 
-.byline{
-  /* float: left; */
+.byline address{
   display: inline;
 }
 

@@ -1,11 +1,12 @@
 
 .heading-group-h1{
-  padding-left: 20px;
+  padding-left: 2%;
+  padding-bottom: .5%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .site-header{
-  background-color: blanchedalmond; 
+  background-color: #FFEAA9; 
 }
 
 @media (max-width:640px){
@@ -13,6 +14,10 @@
 }
 @media (max-width:640px){
   nav ul {display: none;}
+}
+
+@media(hover: hover){
+  nav ul:hover {display: block;}
 }
 
 @media (min-width:640px){
@@ -24,3 +29,8 @@
   top: 0;
   right: 0;
 }
+
+/* .icon-menu:hover ul{
+  clear: both;
+  display: table;
+} */
