@@ -16,10 +16,6 @@
   nav ul {display: none;}
 }
 
-@media(hover: hover){
-  nav ul:hover {display: block;}
-}
-
 @media (min-width:640px){
   .icon-menu {display: none;}
 }
@@ -30,7 +26,6 @@
   right: 0;
 }
 
-/* .icon-menu:hover ul{
-  clear: both;
-  display: table;
-} */
+.icon-menu:hover + ul{
+  display: block;
+}
